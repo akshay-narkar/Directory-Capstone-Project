@@ -12,99 +12,152 @@
     <link href="https://fonts.googleapis.com/css?family=Droid+Serif|Roboto:300" rel="stylesheet" />
     <link rel="icon" type="image/png" sizes="32x32" href="" />
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
 
     <link rel="stylesheet" href="stylesheet.css" />
-
-    <link rel="stylesheet" media="screen and (min-width: 768px) and (max-width: 1023px)" href="css768ak.css" />
-    <link rel="stylesheet" media="screen and (min-width: 1024px)" href="css1024ak.css" />
-    <link rel="stylesheet" media="screen and (min-width: 768px)" href="tablet-styles.css" />
-    <link rel="stylesheet" media="screen and (min-width: 1024px)" href="desktop-sheet.css" />
+    <script src="https://www.w3schools.com/lib/w3.js"></script>
 
     <title>Sporko - India's Premier Sports Academy</title>
   </head>
 
-  <body class="">
-    <header class="">
-      <nav class="navlogo">
-        <div class="header-logo">
-          <a href="#" title="The Sporko Sports Academy" class="">
-            <img alt="Sporko Logo" class="img-logo-head d-block mw-100" src="assets/sporko final logo white only tlbd375px.png" />
-          </a>
-        </div>
+  <header class="">
+    <div w3-include-html="header.html"></div>
+  </header>
 
-        <div class="nav-icons">
-          <ul class="social-link flexak pl-0 mt-3 pb-3">
-            <li><a href="#" class="fa fa-search"></a></li>
-            <li><a href="#" class="fa fa-user"></a></li>
-            <li><a href="#" class="fa fa-info"></a></li>
-            <li><a href="#" class="fa fa-phone"></a></li>
-          </ul>
-        </div>
-      </nav>
-    </header>
+  <!-- <header >
+    <nav class="navlogo">
+      <div class="header-logo">
+        <a href="#" title="The Sporko Sports Academy" class="">
+          <img alt="Sporko Logo" class="img-logo-head d-block mw-100" src="assets/sporko final logo white only tlbd375px.png" />
+        </a>
+      </div>
 
+      <div class="nav-icons mt-2">
+        <ul class="social-link flexak icon-class">
+          <li><a href="#">HOME</a></li>
+          <li><a href="#">ABOUT</a></li>
+          <li><a href="#">BLOG</a></li>
+          <li><a href="#">CONTACT</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header> -->
+
+  <body>
     <main class="remove-widthak">
       <!-- search section -->
 
       <section class="main-sectionak px-3" id="search">
-        <div class="search-main text-white pt-5">
-          <h3 class="text-center font-weight-bold mb-0">Your Gateway</h3>
-          <h3 class="text-center font-weight-bold mb-0">To The Best Sports Schools In</h3>
-          <h3 class="text-center font-weight-bold mb-0">India</h3>
-        </div>
-        <div class="search-box mt-3 rounded">
-          <div class="inside-box px-4 py-2">
-            <h3 class="text-dark text-center">Search By Keyword</h3>
-            <div class="form-group">
-              <input type="text" class="form-control" />
+        <div class="search-main new-class-try">
+          <div class="text-white">
+            <h2 class="text-center font-weight-bold mb-0 main-text">Your Gateway</h2>
+            <h2 class="text-center font-weight-bold mb-0 main-text">To The Best Sports Schools In</h2>
+            <h2 class="text-center font-weight-bold mb-0 main-text">India</h2>
+          </div>
+          <div class="search-box mt-3 rounded">
+            <div class="inside-box px-4 py-2">
+              <h3 class="text-dark text-center">Search By Keyword</h3>
+              <div class="form-group">
+                <input type="text" class="form-control" />
+              </div>
+              <a href="#" type="submit" class="btn btn-secondary btn-block font-weight-bold main-search">SEARCH</a>
             </div>
-            <button type="submit" class="btn btn-primary btn-block font-weight-bold">SEARCH</button>
+          </div>
+          <div class="text-center">
+            <a href="#works" class="btn btn-success mt-4 text-center font-weight-bold d-md-none">How it Works?</a>
           </div>
         </div>
-        <div class="text-center">
-          <button type="button" class="btn btn-success mt-4 text-center font-weight-bold">How it Works?</button>
+      </section>
+
+      <!-- Steps  -->
+
+      <section class="container-fluid steps">
+        <div class="step-contain text-center">
+          <h2 class="text-dark mt-5 mb-4 font-weight-bold" id="works">This Is How Sporko Works!</h2>
+          <div class="first-two row">
+            <div class="steps1 col-lg-6 border-bottom border-bottom-lg-0">
+              <div class="steps1 my-5">
+                <div class="inside-step mx-md-5 my-md-5 px-5 py-3 py-md-3">
+                  <i class="fa fa-search step-icons text-dark"></i>
+                  <h3 class="text-dark my-4 font-weight-bold">1. Search For Academies:</h3>
+                  <h5 class="text-dark my-4 font-weight-narrow text-capitalize">Use the search tab to find Academies based on your location. Make use of filters to sort.</h5>
+                </div>
+              </div>
+            </div>
+
+            <div class="steps1 col-lg-6 border-bottom border-bottom-lg-0">
+              <div class="steps1 my-5">
+                <div class="inside-step mx-md-5 my-md-5 px-5 py-3 py-md-3">
+                  <i class="fa fa-search step-icons text-dark"></i>
+                  <h3 class="text-dark my-4 font-weight-bold">2. Locate the Academy</h3>
+                  <h5 class="text-dark my-4 font-weight-narrow text-capitalize">After filtering through the list available, select the academy closest to your location</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="last-two row mb-lg-4">
+            <div class="steps1 col-lg-6 border-bottom border-bottom-lg-0">
+              <div class="steps1 my-5">
+                <div class="inside-step mx-md-5 my-md-5 px-5 py-3 py-md-3">
+                  <i class="fa fa-search step-icons text-dark"></i>
+                  <h3 class="text-dark my-4 font-weight-bold">3. Apply</h3>
+                  <h5 class="text-dark my-4 font-weight-narrow text-capitalize">Apply for the selected academy throught the form, via call or in person!</h5>
+                </div>
+              </div>
+            </div>
+
+            <div class="steps1 col-lg-6 border-bottom border-bottom-lg-0">
+              <div class="steps1 my-5">
+                <div class="inside-step mx-md-5 my-md-5 px-5 py-3 py-md-3">
+                  <i class="fa fa-search step-icons text-dark"></i>
+                  <h3 class="text-dark my-4 font-weight-bold">4. Relax</h3>
+                  <h5 class="text-dark my-4 font-weight-narrow">While our represenatives reach out to you!</h5>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
 
       <!-- tri color -->
 
       <section class="container-fluid remove-widthak">
-        <div class="part1 py-5 px-4 px-md-5 text-center text-md-left row">
-          <div class="inside-text col-sm-8">
+        <div class="part1 padding-tricolor text-center text-md-left row">
+          <div class="inside-text col-md-8">
             <h2 class="font-weight-bold">Over 1000 training centers across the country</h2>
             <h4 class="font-weight-light mt-2">Search for one today!</h4>
-            <button type="button" href="#search" class="btn btn-primary mx-2 text-center font-weight-bold">Search Now</button>
+            <a href="#search" class="btn btn-outline-light pt-2 text-center font-weight-bold mt-2">Search Now</a>
           </div>
 
-          <div class="inside-image no-display col-md-4 text-center text-md-right mt-md-0">
+          <div class="inside-image d-none d-md-table-cell col-md-4 text-center text-md-right mt-md-0">
             <img src="assets/cricket.png" alt="cricket" class="img-inside rounded-circle" />
           </div>
         </div>
 
-        <div class="container-fluid remove-widthak part2 py-5 px-4 px-md-5 text-center text-md-left">
+        <div class="container-fluid remove-widthak part2 padding-tricolor text-center text-md-left">
           <div class="row">
-            <div class="inside-text col-sm-8">
-              <h2 class="font-weight-bold text-dark">Over 1000 training centers across the country</h2>
-              <h4 class="font-weight-light mt-2 text-dark">Search for one today!</h4>
-              <button type="button" href="#search" class="btn btn-primary mt-2 pt-2 text-center font-weight-bold">Search Now</button>
+            <div class="inside-text col-md-8">
+              <h2 class="font-weight-bold text-dark">Now Find The Best Sports Schools Near You</h2>
+              <h4 class="font-weight-light mt-2 text-dark">At the click of a button!</h4>
+              <a href="#search" href="#search" class="btn btn-outline-dark pt-2 text-center font-weight-bold mt-2">Search Now</a>
             </div>
 
-            <div class="inside-image no-display col-md-4 text-center text-md-right mt-md-0">
+            <div class="inside-image d-none d-md-table-cell col-md-4 text-center text-md-right mt-md-0">
               <img src="assets/basketball.png" alt="cricket" class="img-inside rounded-circle" />
             </div>
           </div>
         </div>
 
-        <div class="container-fluid remove-widthak part3 py-5 px-4 px-md-5 text-center text-md-left">
+        <div class="container-fluid remove-widthak part3 padding-tricolor text-center text-md-left">
           <div class="row">
-            <div class="inside-text col-sm-8">
-              <h2 class="font-weight-bold">Over 1000 training centers across the country</h2>
-              <h4 class="font-weight-light mt-2">Search for one today!</h4>
-              <button type="button" href="#search" class="btn btn-primary mt-2 pt-2 text-center font-weight-bold">Search Now</button>
+            <div class="inside-text col-md-8">
+              <h2 class="font-weight-bold">The best Sports facilites in the country</h2>
+              <h4 class="font-weight-light mt-2">At Your Service!</h4>
+              <a href="#search" class="btn btn-outline-light pt-2 text-center font-weight-bold mt-2">Search Now</a>
             </div>
 
-            <div class="inside-image no-display col-md-4 text-center text-md-right mt-md-0">
+            <div class="inside-image d-none d-md-table-cell col-md-4 text-center text-md-right mt-md-0">
               <img src="assets/tt.jpeg" alt="cricket" class="img-inside rounded-circle" />
             </div>
           </div>
@@ -125,5 +178,9 @@
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
       crossorigin="anonymous"
     ></script>
+
+    <script>
+      w3.includeHTML();
+    </script>
   </body>
 </html>

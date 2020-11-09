@@ -41,7 +41,6 @@ a {
 
 a:hover {
   text-decoration: underline;
-  color: black;
 }
 
 ul {
@@ -73,7 +72,7 @@ nav {
 
 .header-logo {
   display: block;
-  max-width: 85%;
+  max-width: 65%;
   margin: 0 auto;
 }
 
@@ -84,20 +83,29 @@ nav {
 .social-link {
   justify-content: space-evenly;
   margin-bottom: 0;
+  padding: 0 30px;
+  background-color: #ffffff;
 }
 
-.fa {
-  color: white;
-  font-size: 20px;
+.icon-class > li {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
-.fa:hover,
+.icon-class > li > a {
+  color: #040444;
+  font-size: 15px;
+}
+
 .social-link > li > a:hover {
   text-decoration: underline;
-  text-decoration-color: gray;
-  color: white;
+  text-decoration-color: #040444;
 }
-
+.padding-tricolor {
+  padding: 65px 40px;
+}
 /* main section */
 
 .main-sectionak {
@@ -107,6 +115,14 @@ nav {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+.main-search {
+  background-color: #040444;
+}
+
+.step-icons {
+  font-size: 2.5em;
 }
 
 /* .main-sectionak::before {
@@ -135,7 +151,6 @@ nav {
 
 .part1 {
   background-color: rgba(255, 128, 0);
-  padding: 10px;
 }
 
 .part2 {
@@ -147,9 +162,53 @@ nav {
 }
 
 .no-display {
-  display: ;
+  display: none;
 }
 
 .img-inside {
   height: 128px;
+}
+
+.new-class-try {
+  padding-top: 11%;
+}
+
+.main-text {
+  font-size: 32px;
+  font-family: "Droid Serif", serif;
+  line-height: 1.5em;
+}
+
+/* mediaqueries */
+
+@media only screen and (min-width: 768px) {
+  .main-sectionak {
+    height: 560px;
+  }
+  .icon-class > li > a {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .main-text {
+    font-size: 40px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .main-sectionak {
+    height: 780px;
+  }
+
+  .padding-tricolor {
+    padding: 65px 100px;
+  }
+  .icon-class > li > a {
+    font-size: 22px;
+  }
+
+  .new-class-try {
+    padding-top: 18%;
+  }
 }
