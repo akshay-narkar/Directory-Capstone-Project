@@ -1,0 +1,102 @@
+body {
+  background-color: #f4f5f6;
+  color: #333;
+  line-height: 18px;
+  font-family: "Roboto", sans-serif;
+  font-size: 35px;
+  font-family: "Droid Serif", serif;
+  font-size: 15px;
+  box-sizing: border-box;
+}
+
+.main-sectionak {
+  margin-top: 20px;
+  padding-top: 20px;
+  margin-bottom: 50px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 10px;
+  color: black;
+  text-transform: uppercase;
+}
+
+main {
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.text-decoration {
+  text-decoration: none;
+}
+
+.font-size16 {
+  font-size: 16px;
+}
+
+a {
+  color: #666;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: black;
+}
+
+ul {
+  list-style: none;
+}
+
+.flexak {
+  display: flex;
+}
+
+nav {
+  background-color: #040444;
+}
+
+.nav1,
+.nav2,
+.nav3 {
+  display: none;
+}
+
+.remove-widthak {
+  padding-left: 0;
+  padding-right: 0;
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.header-logo {
+  display: block;
+  max-width: 85%;
+  margin: 0 auto;
+}
+
+.img-logo-head {
+  margin: 0 auto;
+}
+
+.social-link {
+  justify-content: space-evenly;
+}
+
+.fa {
+  color: white;
+  font-size: 20px;
+}
+
+.fa:hover,
+.social-link > li > a:hover {
+  text-decoration: underline;
+  text-decoration-color: gray;
+  color: white;
+}
