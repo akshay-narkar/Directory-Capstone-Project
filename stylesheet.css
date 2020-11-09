@@ -130,3 +130,26 @@ nav {
   height: 150px;
   background-color: rgba(255, 255, 255, 0.8);
 }
+
+/* tri color */
+
+.part1 {
+  background-color: rgba(255, 128, 0);
+  padding: 10px;
+}
+
+.part2 {
+  background-color: rgba(255, 255, 255);
+}
+
+.part3 {
+  background-color: rgba(0, 128, 0);
+}
+
+.no-display {
+  display: ;
+}
+
+.img-inside {
+  height: 128px;
+}
