@@ -9,12 +9,6 @@ body {
   box-sizing: border-box;
 }
 
-.main-sectionak {
-  margin-top: 20px;
-  padding-top: 20px;
-  margin-bottom: 50px;
-}
-
 h1,
 h2,
 h3,
@@ -23,7 +17,7 @@ h5,
 h6 {
   font-family: "Roboto", sans-serif;
   margin-bottom: 10px;
-  color: black;
+  color: white;
   text-transform: uppercase;
 }
 
@@ -58,6 +52,8 @@ ul {
   display: flex;
 }
 
+/* header */
+
 nav {
   background-color: #040444;
 }
@@ -87,6 +83,7 @@ nav {
 
 .social-link {
   justify-content: space-evenly;
+  margin-bottom: 0;
 }
 
 .fa {
@@ -99,4 +96,37 @@ nav {
   text-decoration: underline;
   text-decoration-color: gray;
   color: white;
+}
+
+/* main section */
+
+.main-sectionak {
+  background-image: url(assets/footballbg.jpeg), linear-gradient(rgba(0, 0, 0, 0.8), rgba(115, 114, 114, 0.5));
+  background-blend-mode: overlay;
+  height: 460px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* .main-sectionak::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+} */
+
+/* .search-main {
+  padding-top: 20px;
+  margin-bottom: 50px;
+} */
+
+.search-box {
+  max-width: 500px;
+  margin: 0 auto;
+  height: 150px;
+  background-color: rgba(255, 255, 255, 0.8);
 }
