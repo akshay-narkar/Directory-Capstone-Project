@@ -91,7 +91,7 @@ nav {
   justify-content: center;
   margin-bottom: 0;
   padding: 0 30px;
-  background-color: #ffffff;
+  background-color: #fff;
 }
 
 .icon-class > li {
@@ -116,6 +116,7 @@ nav {
 .padding-tricolor {
   padding: 65px 40px;
 }
+
 /* main section */
 
 .main-sectionak {
@@ -256,6 +257,7 @@ nav {
   .click-to-view {
     font-size: 1.5rem;
   }
+
   .icon-class > li {
     margin: 0 14px;
     font-weight: bolder;
@@ -281,6 +283,7 @@ nav {
     padding: 12px 9px 8px;
     margin: 0 20px;
   }
+
   .icon-class > li > a {
     font-size: 20px;
   }
