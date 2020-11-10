@@ -9,8 +9,10 @@
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
-    <link href="https://fonts.googleapis.com/css?family=Droid+Serif|Roboto:300" rel="stylesheet" />
-    <link rel="icon" type="image/png" sizes="64x64" href="assets/CFCI Logo Crestfavi.png" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Droid+Serif" rel="stylesheet" />
+
+    <link rel="icon" type="image/png" sizes="64x64" href="assets/CFCI-Logo-Crestfavi.png" />
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
 
@@ -19,14 +21,11 @@
 
     <title>Sporko - India's Premier Sports Academy</title>
   </head>
-
-  <!-- header  -->
-
-  <header>
-    <div w3-include-html="header.html"></div>
-  </header>
-
   <body>
+    <!-- header  -->
+
+    <header><span w3-include-html="header.html"></span></header>
+
     <main class="remove-widthak">
       <!-- search section -->
 
@@ -43,7 +42,7 @@
               <div class="form-group">
                 <input type="text" class="form-control" />
               </div>
-              <a href="searchpage.html" type="submit" class="btn btn-dark btn-block font-weight-bold main-search">SEARCH</a>
+              <a href="searchpage.html" class="btn btn-dark btn-block font-weight-bold main-search">SEARCH</a>
             </div>
           </div>
           <div class="text-center">
@@ -123,7 +122,7 @@
             <div class="inside-text col-md-8">
               <h2 class="font-weight-bold text-dark">Now Find The Best Sports Schools Near You</h2>
               <h4 class="font-weight-light mt-2 text-dark">At the click of a button!</h4>
-              <a href="#search" href="#search" class="btn btn-outline-dark pt-2 text-center font-weight-bold mt-2 search-now-btn">Search Now</a>
+              <a href="#search" class="btn btn-outline-dark pt-2 text-center font-weight-bold mt-2 search-now-btn">Search Now</a>
             </div>
 
             <div class="inside-image d-none d-md-table-cell col-md-4 text-center text-md-right mt-md-0">
@@ -147,6 +146,10 @@
         </div>
       </section>
     </main>
+
+    <footer>
+      <div w3-include-html="footer.html"></div>
+    </footer>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script

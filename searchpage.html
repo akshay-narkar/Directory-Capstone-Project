@@ -9,8 +9,10 @@
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
-    <link href="https://fonts.googleapis.com/css?family=Droid+Serif|Roboto:300" rel="stylesheet" />
-    <link rel="icon" type="image/png" sizes="64x64" href="assets/CFCI Logo Crestfavi.png" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Droid+Serif" rel="stylesheet" />
+
+    <link rel="icon" type="image/png" sizes="64x64" href="assets/CFCI-Logo-Crestfavi.png" />
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
 
@@ -19,12 +21,11 @@
 
     <title>Sporko - India's Premier Sports Academy</title>
   </head>
-
-  <header class="">
-    <div w3-include-html="header.html"></div>
-  </header>
-
   <body>
+    <header class="">
+      <div w3-include-html="header.html"></div>
+    </header>
+
     <section class="search-section container shadow-fight px-0">
       <div class="search-filter search-filtersingle">
         <div class="search-filter-content">
@@ -36,92 +37,86 @@
           <div class="search-filter-form mt-4">
             <!-- <div class="col-lg-8"> -->
 
-                <div class="filter1 ">
-  <div class="form-group row">
-      <div class="no1 col-6 col-lg-2 col-md-4 mt-3">
-      <label class="font-weight-bold label-sport text-dark" for="sport">Sport:</label>
-      <select class="form-control form-control-filter" id="sport" placeholder="Enter password">
-          <option disabled hidden selected>Select One</option>
-        <option>Football</option>
-        <option>Cricket</option>
-        <option>Basketball</option>
-        <option>Table Tennis</option>
-      </select>
-</div>
-      <div class="no1 col-6 col-lg-2 col-md-4 mt-3">
-    <label class="font-weight-bold label-sport text-dark" for="sport">Age Group:</label>
-      <select class="form-control form-control-filter" id="age-group" placeholder="Enter password">
-          <option disabled hidden selected>Select One</option>
-        <option>5-8</option>
-        <option>8-12</option>
-        <option>12-15</option>
-        <option>15+</option>
-      </select>
-</div>
+            <div class="filter1">
+              <div class="form-group row">
+                <div class="no1 col-6 col-lg-2 col-md-4 mt-3">
+                  <label class="font-weight-bold label-sport text-dark" for="sport">Sport:</label>
+                  <select class="form-control form-control-filter" id="sport">
+                    <option disabled hidden selected>Select One</option>
+                    <option>Football</option>
+                    <option>Cricket</option>
+                    <option>Basketball</option>
+                    <option>Table Tennis</option>
+                  </select>
+                </div>
+                <div class="no1 col-6 col-lg-2 col-md-4 mt-3">
+                  <label class="font-weight-bold label-sport text-dark" for="sport">Age Group:</label>
+                  <select class="form-control form-control-filter" id="age-group">
+                    <option disabled hidden selected>Select One</option>
+                    <option>5-8</option>
+                    <option>8-12</option>
+                    <option>12-15</option>
+                    <option>15+</option>
+                  </select>
+                </div>
 
- <div class="no1 col-6 col-lg-2 col-md-4 mt-3">
-    <label class="font-weight-bold label-sport text-dark" for="sport">State:</label>
-      <select class="form-control form-control-filter" id="state" placeholder="Enter password">
-          <option disabled hidden selected>Select One</option>
-        <option>MH</option>
-        <option>GUJ</option>
-        <option>WB</option>
-        <option>RAJ</option>
-      </select>
-</div>
+                <div class="no1 col-6 col-lg-2 col-md-4 mt-3">
+                  <label class="font-weight-bold label-sport text-dark" for="sport">State:</label>
+                  <select class="form-control form-control-filter" id="state">
+                    <option disabled hidden selected>Select One</option>
+                    <option>MH</option>
+                    <option>GUJ</option>
+                    <option>WB</option>
+                    <option>RAJ</option>
+                  </select>
+                </div>
 
+                <div class="no1 col-6 col-lg-2 col-md-4 mt-3">
+                  <label class="font-weight-bold label-sport text-dark" for="sport">City:</label>
+                  <select class="form-control form-control-filter" id="city">
+                    <option disabled hidden selected>Select One</option>
+                    <option>Mumbai</option>
+                    <option>Surat</option>
+                    <option>Kolkatta</option>
+                    <option>Jaipur</option>
+                  </select>
+                </div>
 
- <div class="no1 col-6 col-lg-2 col-md-4 mt-3">
-    <label class="font-weight-bold label-sport text-dark" for="sport">City:</label>
-      <select class="form-control form-control-filter" id="city" placeholder="Enter password">
-          <option disabled hidden selected>Select One</option>
-        <option>Mumbai</option>
-        <option>Surat</option>
-        <option>Kolkatta</option>
-        <option>Jaipur</option>
-      </select>
-</div>
+                <div class="no1 col-6 col-lg-2 col-md-4 mt-3">
+                  <label class="font-weight-bold label-sport text-dark" for="sport">Facilities:</label>
+                  <select class="form-control form-control-filter" id="faci">
+                    <option disabled hidden selected>Select One</option>
+                    <option>Pool</option>
+                    <option>Pick Up</option>
+                    <option>Lunch</option>
+                    <option>All</option>
+                  </select>
+                </div>
 
- <div class="no1 col-6 col-lg-2 col-md-4 mt-3">
-    <label class="font-weight-bold label-sport text-dark" for="sport">Facilities:</label>
-      <select class="form-control form-control-filter" id="faci" placeholder="Enter password">
-          <option disabled hidden selected>Select One</option>
-        <option>Pool</option>
-        <option>Pick Up</option>
-        <option>Lunch</option>
-        <option>All</option>
-      </select>
-</div>
-
- <div class="no1 col-6 col-lg-2 col-md-4 mt-3">
-    <label class="font-weight-bold label-sport text-dark" for="sport">Distance:</label>
-      <select class="form-control form-control-filter" id="dis" placeholder="Enter password">
-          <!-- <option value= " " selected disabled>Please select</option> -->
-        <option disabled hidden selected>Select One</option>
-        <option>2KMs</option>
-        <option>5KMs</option>
-        <option>8KMs</option>
-        <option>12KMs</option>
-      </select>
-</div>
-
-
-
-</div>
+                <div class="no1 col-6 col-lg-2 col-md-4 mt-3">
+                  <label class="font-weight-bold label-sport text-dark" for="sport">Distance:</label>
+                  <select class="form-control form-control-filter" id="dis">
+                    <!-- <option value= " " selected disabled>Please select</option> -->
+                    <option disabled hidden selected>Select One</option>
+                    <option>2KMs</option>
+                    <option>5KMs</option>
+                    <option>8KMs</option>
+                    <option>12KMs</option>
+                  </select>
+                </div>
+              </div>
             </div>
 
-            <div class="filter-buttons pb-4 text-center ">
+            <div class="filter-buttons pb-4 text-center">
               <a href="resultspage.html" class="btn btn-dark mt-4 text-center font-weight-bold">Search</a>
               <a href="#" class="btn btn-secondary mt-4 text-center font-weight-bold">Clear Filter</a>
             </div>
-          <!-- </div> -->
+            <!-- </div> -->
+          </div>
         </div>
       </div>
-
-      <div></div>
     </section>
 
-  
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
