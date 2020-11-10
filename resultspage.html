@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link href="https://fonts.googleapis.com/css?family=Droid+Serif|Roboto:300" rel="stylesheet" />
+    <link rel="icon" type="image/png" sizes="64x64" href="assets/CFCI Logo Crestfavi.png" />
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+    <link rel="stylesheet" href="stylesheet.css" />
+    <script src="https://www.w3schools.com/lib/w3.js"></script>
+
+    <title>Sporko - India's Premier Sports Academy</title>
+  </head>
+
+  <header class="">
+    <div w3-include-html="header.html"></div>
+  </header>
+
+  <body>
+    <section class="search-section container shadow-fight px-0">
+      <div class="search-filter">
+        <div class="search-filter-content">
+          <div class="search-head text-center pt-4">
+            <h2 class="text-dark">FILTER BY:</h2>
+            <p class="text-dark">Sport | Age-Group | State | City | Facilities | Distance</p>
+          </div>
+
+          <div class="search-filter-form mt-4">
+            <!-- <div class="col-lg-8"> -->
+
+                <div class="filter1 ">
+  <div class="form-group row">
+      <div class="no1 col-6 col-lg-2 col-md-4 mt-3">
+      <label class="font-weight-bold label-sport text-dark" for="sport">Sport:</label>
+      <select class="form-control form-control-filter" id="sport" placeholder="Enter password">
+          <option disabled hidden selected>Select One</option>
+        <option>Football</option>
+        <option>Cricket</option>
+        <option>Basketball</option>
+        <option>Table Tennis</option>
+      </select>
+</div>
+      <div class="no1 col-6 col-lg-2 col-md-4 mt-3">
+    <label class="font-weight-bold label-sport text-dark" for="sport">Age Group:</label>
+      <select class="form-control form-control-filter" id="age-group" placeholder="Enter password">
+          <option disabled hidden selected>Select One</option>
+        <option>5-8</option>
+        <option>8-12</option>
+        <option>12-15</option>
+        <option>15+</option>
+      </select>
+</div>
+
+ <div class="no1 col-6 col-lg-2 col-md-4 mt-3">
+    <label class="font-weight-bold label-sport text-dark" for="sport">State:</label>
+      <select class="form-control form-control-filter" id="state" placeholder="Enter password">
+          <option disabled hidden selected>Select One</option>
+        <option>MH</option>
+        <option>GUJ</option>
+        <option>WB</option>
+        <option>RAJ</option>
+      </select>
+</div>
+
+
+ <div class="no1 col-6 col-lg-2 col-md-4 mt-3">
+    <label class="font-weight-bold label-sport text-dark" for="sport">City:</label>
+      <select class="form-control form-control-filter" id="city" placeholder="Enter password">
+          <option disabled hidden selected>Select One</option>
+        <option>Mumbai</option>
+        <option>Surat</option>
+        <option>Kolkatta</option>
+        <option>Jaipur</option>
+      </select>
+</div>
+
+ <div class="no1 col-6 col-lg-2 col-md-4 mt-3">
+    <label class="font-weight-bold label-sport text-dark" for="sport">Facilities:</label>
+      <select class="form-control form-control-filter" id="faci" placeholder="Enter password">
+          <option disabled hidden selected>Select One</option>
+        <option>Pool</option>
+        <option>Pick Up</option>
+        <option>Lunch</option>
+        <option>All</option>
+      </select>
+</div>
+
+ <div class="no1 col-6 col-lg-2 col-md-4 mt-3">
+    <label class="font-weight-bold label-sport text-dark" for="sport">Distance:</label>
+      <select class="form-control form-control-filter" id="dis" placeholder="Enter password">
+          <!-- <option value= " " selected disabled>Please select</option> -->
+        <option disabled hidden selected>Select One</option>
+        <option>2KMs</option>
+        <option>5KMs</option>
+        <option>8KMs</option>
+        <option>12KMs</option>
+      </select>
+</div>
+
+
+
+</div>
+            </div>
+
+            <div class="filter-buttons pb-4 text-center">
+              <a href="#" class="btn btn-dark mt-4 text-center font-weight-bold">Search</a>
+              <a href="#" class="btn btn-secondary mt-4 text-center font-weight-bold">Clear Filter</a>
+            </div>
+          <!-- </div> -->
+        </div>
+      </div>
+
+      <div></div>
+    </section>
+
+    <section class="results mt-5">
+      <div class="school-cards id="school-cards"">
+
+        <div>
+            <h2 class="text-dark text-center">9 Results were returned</h2>
+        </div>
+
+     <div class="card-holder">  
+<div class="container card-container mt-4 row" >
+
+  <div class="card text-center card-1 shadow-fight" >
+      <div class="topcard mb-2">
+    <img src="assets/CFCI Logo Crest.png" alt="Card image" class="card-img-top card-image text-center mt-3">
+    </div>
+    <div class="card-body mt-2 border-top-card">
+      <h3 class="card-title text-dark font-weight-bold">Community FC</h3>
+      <h5 class="card-text font-weight-light text-dark h5-update-text">Football Academy</h5>
+      <a href="schooldetail.html" class="btn btn-dark text-center font-weight-bold mt-1">See Profile</a>
+    </div>
+  </div>
+
+
+
+  <div class="card text-center card-1 shadow-fight" >
+      <div class="topcard mb-2">
+    <img src="assets/team8.png" alt="Card image" class="card-img-top card-image text-center mt-3">
+    </div>
+    <div class="card-body mt-2 border-top-card">
+      <h3 class="card-title text-dark font-weight-bold">ITTF</h3>
+      <h5 class="card-text font-weight-light text-dark h5-update-text">Table Tennis Academy</h5>
+      <a href="schooldetail.html" class="btn btn-dark text-center font-weight-bold mt-1">See Profile</a>
+    </div>
+  </div>
+
+
+
+<div class="card text-center card-1 shadow-fight" >
+      <div class="topcard mb-2">
+    <img src="assets/team2.png" alt="Card image" class="card-img-top card-image text-center mt-3">
+    </div>
+    <div class="card-body mt-2 border-top-card">
+      <h3 class="card-title text-dark font-weight-bold">Tennese Titans</h3>
+      <h5 class="card-text font-weight-light text-dark h5-update-text">Basketball Academy</h5>
+      <a href="schooldetail.html" class="btn btn-dark text-center font-weight-bold mt-1">See Profile</a>
+    </div>
+  </div>
+
+  <div class="card text-center card-1 shadow-fight" >
+      <div class="topcard mb-2">
+    <img src="assets/team6.png" alt="Card image" class="card-img-top card-image text-center mt-3">
+    </div>
+    <div class="card-body mt-2 border-top-card">
+      <h3 class="card-title text-dark font-weight-bold">ICC Cricket</h3>
+      <h5 class="card-text font-weight-light text-dark h5-update-text">Cricket Academy</h5>
+      <a href="schooldetail.html" class="btn btn-dark text-center font-weight-bold mt-1">See Profile</a>
+    </div>
+  </div>
+
+  <div class="card text-center card-1 shadow-fight" >
+      <div class="topcard mb-2">
+    <img src="assets/team1.png" alt="Card image" class="card-img-top card-image text-center mt-3">
+    </div>
+    <div class="card-body mt-2 border-top-card">
+      <h3 class="card-title text-dark font-weight-bold">Timberwolves</h3>
+      <h5 class="card-text font-weight-light text-dark h5-update-text">Basketball Academy</h5>
+      <a href="schooldetail.html" class="btn btn-dark text-center font-weight-bold mt-1">See Profile</a>
+    </div>
+  </div>
+
+  <div class="card text-center card-1 shadow-fight" >
+      <div class="topcard mb-2">
+    <img src="assets/team3.png" alt="Card image" class="card-img-top card-image text-center mt-3">
+    </div>
+    <div class="card-body mt-2 border-top-card">
+      <h3 class="card-title text-dark font-weight-bold">Toronto Raptors</h3>
+      <h5 class="card-text font-weight-light text-dark h5-update-text">Basketball Academy</h5>
+      <a href="schooldetail.html" class="btn btn-dark text-center font-weight-bold mt-1">See Profile</a>
+    </div>
+  </div>
+
+  <div class="card text-center card-1 shadow-fight" >
+      <div class="topcard mb-2">
+    <img src="assets/team4.png" alt="Card image" class="card-img-top card-image text-center mt-3">
+    </div>
+    <div class="card-body mt-2 border-top-card">
+      <h3 class="card-title text-dark font-weight-bold">Dallas Cowboys</h3>
+      <h5 class="card-text font-weight-light text-dark h5-update-text">Football Academy</h5>
+      <a href="schooldetail.html" class="btn btn-dark text-center font-weight-bold mt-1">See Profile</a>
+    </div>
+  </div>
+
+  <div class="card text-center card-1 shadow-fight" >
+      <div class="topcard mb-2">
+    <img src="assets/team7.png" alt="Card image" class="card-img-top card-image text-center mt-3">
+    </div>
+    <div class="card-body mt-2 border-top-card">
+      <h3 class="card-title text-dark font-weight-bold">BCCI Cricket</h3>
+      <h5 class="card-text font-weight-light text-dark h5-update-text">Cricket Academy</h5>
+      <a href="schooldetail.html" class="btn btn-dark text-center font-weight-bold mt-1">See Profile</a>
+    </div>
+  </div>
+
+  <div class="card text-center card-1 shadow-fight" >
+      <div class="topcard mb-2">
+    <img src="assets/team5.png" alt="Card image" class="card-img-top card-image text-center mt-3">
+    </div>
+    <div class="card-body mt-2 border-top-card">
+      <h3 class="card-title text-dark font-weight-bold">Toulouse FC</h3>
+      <h5 class="card-text font-weight-light text-dark h5-update-text">Football Academy</h5>
+      <a href="schooldetail.html" class="btn btn-dark text-center font-weight-bold mt-1">See Profile</a>
+    </div>
+  </div>
+
+
+
+  </div>
+
+
+
+
+      </div>
+
+
+      </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+
+    <script>
+      w3.includeHTML();
+    </script>
+  </body>
+</html>
