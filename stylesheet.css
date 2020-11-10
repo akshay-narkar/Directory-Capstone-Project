@@ -29,7 +29,8 @@ main {
 }
 
 .font-size16 {
-  font-size: 16px;
+  font-size: 19px;
+  line-height: 1.25em;
 }
 
 a {
@@ -47,6 +48,14 @@ ul {
 
 .flexak {
   display: flex;
+}
+
+.shadow-fight {
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 19px 38px rgba(0, 0, 0, 0.22);
+}
+
+.click-to-view {
+  font-size: 19px;
 }
 
 /* header */
@@ -88,10 +97,10 @@ nav {
 .icon-class > li {
   display: block;
   text-align: center;
-  padding: 7px 9px 14px;
+  padding: 9px;
   text-decoration: none;
   margin: 0;
-  font-family: "Droid Serif", serif;
+  font-family: "Roboto", serif;
 }
 
 .icon-class > li > a {
@@ -100,9 +109,10 @@ nav {
 }
 
 .social-link > li > a:hover {
-  text-decoration: underline;
-  text-decoration-color: #040444;
+  text-decoration: none;
+  text-shadow: 1px 1px 2px #040444;
 }
+
 .padding-tricolor {
   padding: 65px 40px;
 }
@@ -124,21 +134,6 @@ nav {
 .step-icons {
   font-size: 2.5em;
 }
-
-/* .main-sectionak::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  background: rgba(0, 0, 0, 0.5);
-} */
-
-/* .search-main {
-  padding-top: 20px;
-  margin-bottom: 50px;
-} */
 
 .search-box {
   max-width: 500px;
@@ -166,7 +161,7 @@ nav {
 }
 
 .img-inside {
-  height: 128px;
+  height: 150px;
 }
 
 .new-class-try {
@@ -179,12 +174,19 @@ nav {
   line-height: 1.5em;
 }
 
+.search-now-btn:hover {
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 19px 38px rgba(0, 0, 0, 0.22);
+}
+
 /* Search page  */
 
 .search-filter {
-  background-color: rgba(208, 208, 208, 0.4);
-  height: 475px;
-  margin-top: 45px;
+  margin-top: 40px;
+  color: white;
+}
+
+.search-filtersingle {
+  margin-top: 14%;
 }
 
 .filter1 {
@@ -204,7 +206,6 @@ nav {
 .card-1 {
   width: 311px;
   margin: 0 auto 35px;
-  border: 2px solid black;
 }
 
 .card-image {
@@ -213,13 +214,38 @@ nav {
   height: 170px;
 }
 
-.border-top-card {
-  border-top: 1px solid black;
-}
-
 .h5-update-text {
   font-size: 18px;
 }
+
+/* school details  */
+
+.title-card-school {
+  font-size: 32px;
+}
+
+.detail-flex {
+  align-items: center;
+  justify-content: center;
+}
+
+.image-logo-details {
+  width: 32px;
+  height: 32px;
+}
+
+.text-in-card {
+  font-size: 17px;
+}
+
+.school-details-text {
+  font-size: 15px;
+}
+
+.map-google {
+  border: none;
+}
+
 /* mediaqueries */
 
 @media only screen and (min-width: 768px) {
@@ -227,17 +253,22 @@ nav {
     height: 560px;
   }
 
+  .click-to-view {
+    font-size: 1.5rem;
+  }
   .icon-class > li {
-    padding: 10px 9px;
-    text-decoration: none;
     margin: 0 14px;
+    font-weight: bolder;
   }
 
   .icon-class > li > a {
     font-size: 18px;
   }
-  .search-filter {
-    height: 375px;
+
+  .map-google {
+    border: none;
+    width: 700px;
+    height: 600px;
   }
 }
 
@@ -246,12 +277,16 @@ nav {
     font-size: 40px;
   }
 
+  .icon-class > li {
+    padding: 12px 9px 8px;
+    margin: 0 20px;
+  }
   .icon-class > li > a {
     font-size: 20px;
   }
 
-  .search-filter {
-    height: 300px;
+  .img-inside {
+    height: 175px;
   }
 }
 
@@ -265,24 +300,20 @@ nav {
   }
 
   .padding-tricolor {
-    padding: 65px 150px;
+    padding: 65px 120px;
   }
 
   .new-class-try {
-    padding-top: 11%;
-  }
-
-  .icon-class > li {
-    padding: 10px 9px;
-    text-decoration: none;
-    margin: 0 20px;
+    padding-top: 14%;
   }
 
   .icon-class > li > a {
     font-size: 22px;
   }
+}
 
-  .search-filter {
-    height: 300px;
+@media only screen and (min-width: 1920px) {
+  .new-class-try {
+    padding-top: 10%;
   }
 }
