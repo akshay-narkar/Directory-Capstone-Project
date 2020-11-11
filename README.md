@@ -7,6 +7,8 @@
     Mobile Site - Minimum Width - 375px
     Tablet Site - Minimum Width - 768px
     Desktop Site - Minimum Width - 1024px
+    Large Screen Desktops - Minimum Width - 1280px
+
 
     Typography:
 
