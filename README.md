@@ -75,6 +75,11 @@ Contributions, issues and feature requests are welcome! Start by:
 
 Give a :star: if you like this project!
 
+## Acknowlegdements
+
+https://www.behance.net/gallery/25563385/PatashuleKE
+Design idea by Mathew Njuguna and others on Behance
+
 ## 📝 License
 
 This project is [MIT](https://opensource.org/licenses/MIT) licensed.
