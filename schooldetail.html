@@ -14,7 +14,7 @@
 
     <link rel="icon" type="image/png" sizes="64x64" href="assets/CFCI-Logo-Crestfavi.png" />
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous" />
 
     <link rel="stylesheet" href="stylesheet.css" />
     <script src="https://www.w3schools.com/lib/w3.js"></script>
@@ -115,10 +115,17 @@
       </div>
 
       <div class="container">
-        <div class="jumbotron py-5">
-          <a href="#">
-            <h3 class="text-dark font-weight-bold text-center text-md-left click-to-view"><i class="fa fa-bars pr-3"></i>Click To View More Details</h3>
-          </a>
+        <div class="jumbotron py-4">
+          <h3 class="text-dark font-weight-bold text-center text-md-left click-to-view" data-toggle="collapse" data-target="#demo">
+            <!-- <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#demo">Click to View More Details</button>-->
+            <i class="fa fa-bars pr-2"></i>Click To View More Details
+            <div id="demo" class="collapse">
+              <p class="more-details px-3 mx-3 pt-3 font-weight-bold text-capitalize">
+                1) Owners - Sporko Pvt Ltd <br />
+                2) Membership Duration - 3 months/6 months/ 9 months/ 1 year <br />3) What we expect - Dedication, Commitment, Discpline <br />4) Absence Compensation - Flexible
+              </p>
+            </div>
+          </h3>
         </div>
       </div>
     </section>
