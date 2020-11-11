@@ -21,20 +21,27 @@
     <title>Sporko - India's Premier Sports Academy</title>
   </head>
 
-  <header class="navlogo main-search">
-    <nav class="header-logo">
+  <header class="navlogo header-color row remove-widthak align-items-md-center">
+    <nav class="header-logo col-md-5">
       <a href="index.html" title="The Sporko Sports Academy" class="">
         <img alt="Sporko Logo" class="img-logo-head d-block mw-100" src="assets/sporko-final-logo-white-only-tlbd375px.png" />
       </a>
     </nav>
 
-    <nav class="nav-icons mt-2">
-      <ul class="social-link flexak icon-class">
-        <li><a href="#">HOME</a></li>
-        <li><a href="#">ABOUT</a></li>
-        <li><a href="#">BLOG</a></li>
-        <li><a href="#">GALLERY</a></li>
-        <li><a href="#">CONTACT</a></li>
+    <nav class="nav-icons mt-2 col-md-7">
+      <ul class="social-link icon-class flexak">
+        <li>
+          <a href="searchpage.html"><i class="fas fa-search pr-1 text-white"></i><span class="d-none d-lg-inline-flex ml-1 text-white">HOME</span></a>
+        </li>
+        <li>
+          <a href="#"><i class="fas fa-user text-white"></i><span class="d-none d-lg-inline-flex ml-1 text-white">ABOUT</span></a>
+        </li>
+        <li>
+          <a href="#"><i class="fas fa-blog pr-1 text-white"></i><span class="d-none d-lg-inline-flex ml-1 text-white">BLOG</span></a>
+        </li>
+        <li>
+          <a href="#"><i class="fas fa-bars pr-1 text-white"></i><span class="d-none d-lg-inline-flex ml-1 text-white">CONTACT</span></a>
+        </li>
       </ul>
     </nav>
   </header>
@@ -43,7 +50,7 @@
     <div class="search-filter search-filtersingle">
       <div class="search-filter-content">
         <div class="search-head text-center pt-4">
-          <h2 class="text-dark">FILTER BY:</h2>
+          <h1 class="text-dark">FILTER BY:</h1>
           <p class="text-dark">Sport | Age-Group | State | City | Facilities | Distance</p>
         </div>
 
@@ -134,14 +141,15 @@
 
   <footer class="main-footerak">
     <!-- top -->
-    <div class="part2 empty-block"></div>
+    <div class="part2 empty-block d-none"></div>
 
     <section class="container-fluid top-footer py-2 pb-md-3 pt-md-2">
       <!-- section 1 -->
       <div class="row remove-widthak py-1 align-items-md-baseline pl-lg-2">
-        <div class="footer-top-wrapper col-12 col-md-8 pr-0">
-          <ul class="footer-link-ul flexak remove-widthak justify-content-center justify-content-md-start pt-1 pt-md-0">
-            <li><a href="#" class="text-light font-weight-bold">HOME</a></li>
+        <!-- from here -->
+        <div class="footer-top-wrapper col-12 col-md-5 py-3">
+          <ul class="footer-link-ul flexak remove-widthak justify-content-end justify-content-xl-center mb-0">
+            <li><a href="index.html" class="text-light font-weight-bold">HOME</a></li>
             <li><a href="#" class="text-light font-weight-bold">SEARCH</a></li>
             <li><a href="#" class="text-light font-weight-bold">ABOUT US</a></li>
             <li><a href="#" class="text-light font-weight-bold">ADVERTISE</a></li>
@@ -149,12 +157,22 @@
         </div>
 
         <!-- section 2 -->
-        <div class="footer-top-wrapper col-12 col-md-4 text-center text-lg-right pl-md-5">
+        <div class="footer-top-wrapper col-12 col-md-2 py-3 text-center">
           <div class="footer-logo">
             <a href="index.html">
-              <img src="assets/sporko-final-logo-white-only-tlbd.png" alt="sporko logo" />
+              <img src="assets/CFCI-Logo-Crest.png" alt="sporko logo" />
             </a>
           </div>
+        </div>
+
+        <!-- section 3 -->
+        <div class="footer-top-wrapper col-12 col-md-5 py-3">
+          <ul class="footer-link-ul flexak remove-widthak justify-content-xl-center mb-0">
+            <li><a href="index.html" class="text-light font-weight-bold">FACEBOOK</a></li>
+            <li><a href="#" class="text-light font-weight-bold">TWITTER</a></li>
+            <li><a href="#" class="text-light font-weight-bold">INSTAGRAM</a></li>
+            <li><a href="#" class="text-light font-weight-bold">BLOG</a></li>
+          </ul>
         </div>
 
         <!-- main div close  -->
@@ -169,7 +187,7 @@
           <div class="title-footer">
             <h4 class="pb-1 font-weight-narrow footer-headers">Subscribe</h4>
             <div class="form-group row remove-widthak justify-content-center justify-content-lg-start">
-              <input type="text" class="form-control form-sub text-secondary main-search col-lg-9" id="usr" placeholder="you@example.com" />
+              <input type="text" class="form-control form-sub text-secondary main-search col-lg-9" placeholder="you@example.com" />
               <a href="" class="btn btn-dark mt-2 mt-lg-0 text-center font-weight-bold w-50 col-lg-3">Search</a>
             </div>
           </div>
@@ -225,7 +243,6 @@
       </div>
     </section>
   </footer>
-
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script
     src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
