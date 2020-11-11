@@ -46,7 +46,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/akshay-narkar/Directory-Capstone-Project/development/index.html)
+[Live Demo Link](https://raw.githack.com/akshay-narkar/Directory-Capstone-Project/project-ui/index.html)
 
 ## Automated Test
 
@@ -56,8 +56,8 @@
 
 👤 **Author1**
 
-- Github: [@akshay-narkar]
-- Twitter: [@akidoit]
+- Github: [@akshay-narkar](https://github.com/akshay-narkar)
+- Twitter: [@akidoit](https://twitter.com/akidoit)
 
 ## 🤝 Contributing
 
@@ -82,4 +82,4 @@ Design idea by Mathew Njuguna and others on Behance
 
 ## 📝 License
 
-This project is [MIT](https://opensource.org/licenses/MIT) licensed.
+This project is [MIT](https://raw.githubusercontent.com/akshay-narkar/Directory-Capstone-Project/main/LICENSE) licensed.
