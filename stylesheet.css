@@ -246,6 +246,7 @@ ul {
 
 .empty-block {
   height: 100px;
+  background-color: #f4f5f6;
 }
 
 /* top */
@@ -381,6 +382,10 @@ ul {
   .footer-link-ul > li > a {
     font-size: 24px;
   }
+
+  .top-footer {
+    padding: 0 2%;
+  }
 }
 
 @media only screen and (min-width: 1280px) {
@@ -403,9 +408,20 @@ ul {
   .icon-class > li > a {
     font-size: 22px;
   }
+
+  .mid-footer {
+    padding: 0 7%;
+  }
 }
 
 @media only screen and (min-width: 1920px) {
+  body {
+    border-left: 1px solid rgba(189, 183, 183, 0.2);
+    border-right: 1px solid rgba(189, 183, 183, 0.2);
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+
   .new-class-try {
     padding-top: 10%;
   }
