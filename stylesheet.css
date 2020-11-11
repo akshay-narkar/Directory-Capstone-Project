@@ -5,6 +5,8 @@ body {
   font-family: "Roboto", serif;
   font-size: 15px;
   box-sizing: border-box;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 h1,
@@ -418,8 +420,6 @@ ul {
   body {
     border-left: 1px solid rgba(189, 183, 183, 0.2);
     border-right: 1px solid rgba(189, 183, 183, 0.2);
-    max-width: 1440px;
-    margin: 0 auto;
   }
 
   .new-class-try {
