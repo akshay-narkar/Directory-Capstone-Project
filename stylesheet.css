@@ -60,10 +60,6 @@ ul {
 
 /* header */
 
-nav {
-  background-color: #040444;
-}
-
 .nav1,
 .nav2,
 .nav3 {
@@ -108,13 +104,8 @@ nav {
   font-size: 15px;
 }
 
-.social-link > li > a:hover {
-  text-decoration: none;
-  text-shadow: 1px 1px 2px #040444;
-}
-
 .padding-tricolor {
-  padding: 65px 40px;
+  padding: 115px 40px;
 }
 
 /* main section */
@@ -162,7 +153,7 @@ nav {
 }
 
 .img-inside {
-  height: 150px;
+  height: 170px;
 }
 
 .new-class-try {
@@ -187,7 +178,7 @@ nav {
 }
 
 .search-filtersingle {
-  margin-top: 14%;
+  margin: 14% auto;
 }
 
 .filter1 {
@@ -251,6 +242,85 @@ nav {
   border: none;
 }
 
+/* footer */
+
+.empty-block {
+  height: 100px;
+}
+
+/* top */
+
+.top-footer {
+  background-color: #040444;
+  padding: 20px 5px;
+}
+
+.footer-link-ul {
+  margin-bottom: 20px;
+}
+
+.footer-top-wrapper > ul > li {
+  margin-right: 18px;
+}
+
+.footer-link-ul > li > a {
+  font-size: 15px;
+}
+
+.footer-logo > a > img {
+  max-width: 200px;
+}
+
+/* middle */
+
+.footer-headers {
+  font-size: 20px;
+}
+
+.footer-content {
+  font-size: 13px;
+}
+
+.form-control::placeholder {
+  color: white;
+  opacity: 1;
+}
+
+/* bottom */
+
+.bottom-footer {
+  background-color: black;
+}
+
+.social-linkf-wrapper > ul > li {
+  margin-right: 18px;
+}
+
+.amsterdam {
+  font-size: 15px;
+}
+
+.social-linkf-ul > li > a {
+  font-size: 20px;
+}
+
+/* hover selecttor */
+
+.social-link > li > a:hover {
+  text-decoration: none;
+  text-shadow: 1px 1px 2px #040444;
+}
+
+.footer-link-ul > li > a:hover {
+  text-decoration: none;
+  text-shadow: 1px 1px 2px #040444;
+}
+
+.social-linkf-ul > li > a:hover {
+  text-decoration: none;
+  text-shadow: 1px 1px 2px #040444;
+}
+
 /* mediaqueries */
 
 @media only screen and (min-width: 768px) {
@@ -276,6 +346,18 @@ nav {
     width: 700px;
     height: 600px;
   }
+
+  .footer-link-ul > li > a {
+    font-size: 20px;
+  }
+
+  .footer-logo > a > img {
+    max-width: 200px;
+  }
+
+  .amsterdam {
+    font-size: 16px;
+  }
 }
 
 @media only screen and (min-width: 1024px) {
@@ -294,6 +376,10 @@ nav {
 
   .img-inside {
     height: 175px;
+  }
+
+  .footer-link-ul > li > a {
+    font-size: 24px;
   }
 }
 
