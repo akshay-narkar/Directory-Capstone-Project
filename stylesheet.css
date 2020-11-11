@@ -2,7 +2,7 @@ body {
   background-color: #f4f5f6;
   color: #333;
   line-height: 18px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto", serif;
   font-size: 15px;
   box-sizing: border-box;
 }
@@ -13,7 +13,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto", serif;
   margin-bottom: 10px;
   color: white;
   text-transform: uppercase;
@@ -241,6 +241,10 @@ nav {
 
 .school-details-text {
   font-size: 15px;
+}
+
+.more-details {
+  font-size: 14px;
 }
 
 .map-google {
