@@ -1,0 +1,424 @@
+body {
+  background-color: #f4f5f6;
+  color: #333;
+  line-height: 18px;
+  font-family: "Roboto", serif;
+  font-size: 15px;
+  box-sizing: border-box;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Roboto", serif;
+  margin-bottom: 10px;
+  color: white;
+  text-transform: uppercase;
+}
+
+main {
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.text-decoration {
+  text-decoration: none;
+}
+
+.font-size16 {
+  font-size: 19px;
+  line-height: 1.25em;
+}
+
+a {
+  color: #666;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+ul {
+  list-style: none;
+}
+
+.flexak {
+  display: flex;
+}
+
+.shadow-fight {
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 19px 38px rgba(0, 0, 0, 0.22);
+}
+
+.click-to-view {
+  font-size: 19px;
+}
+
+/* header */
+
+.header-color {
+  background-color: #d35649;
+}
+
+.remove-widthak {
+  padding-left: 0;
+  padding-right: 0;
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.header-logo {
+  display: block;
+  max-width: 55%;
+  margin: 10px auto 0;
+}
+
+.img-logo-head {
+  margin: 0 auto;
+}
+
+.social-link {
+  justify-content: center;
+  margin-bottom: 0;
+  padding: 0 30px;
+}
+
+.icon-class > li {
+  display: block;
+  text-align: center;
+  padding: 9px 18px;
+  text-decoration: none;
+  margin: 0;
+  font-family: "Roboto", serif;
+}
+
+.icon-class > li > a {
+  font-size: 18px;
+}
+
+.padding-tricolor {
+  padding: 115px 40px;
+}
+
+/* main section */
+
+.main-sectionak {
+  background-image: url(assets/footballbg.jpeg), linear-gradient(rgba(0, 0, 0, 0.8), rgba(115, 114, 114, 0.5));
+  background-blend-mode: overlay;
+  height: 520px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.main-search {
+  background-color: #1f1f1f;
+}
+
+.step-icons {
+  font-size: 2.5em;
+}
+
+.search-box {
+  max-width: 500px;
+  margin: 0 auto;
+  height: 175px;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+/* tri color */
+
+.part1 {
+  background-color: #e17f65;
+}
+
+.part2 {
+  background-color: #98a4a5;
+}
+
+.part3 {
+  background-color: #519cd7;
+}
+
+.no-display {
+  display: none;
+}
+
+.img-inside {
+  height: 170px;
+}
+
+.new-class-try {
+  padding-top: 11%;
+}
+
+.main-text {
+  font-size: 32px;
+  font-family: "Droid Serif", serif;
+  line-height: 1.5em;
+}
+
+.search-now-btn:hover {
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 19px 38px rgba(0, 0, 0, 0.22);
+}
+
+/* Search page  */
+
+.search-filter {
+  margin-top: 40px;
+  color: white;
+}
+
+.search-filtersingle {
+  margin: 14% auto;
+}
+
+.filter1 {
+  padding: 0 35px;
+}
+
+.form-control-filter {
+  width: 100%;
+}
+
+/* cards */
+
+.card-container {
+  margin: 0 auto;
+}
+
+.card-1 {
+  width: 311px;
+  margin: 0 auto 35px;
+}
+
+.card-image {
+  max-width: 170px;
+  margin: 22px auto 0;
+  height: 170px;
+}
+
+.h5-update-text {
+  font-size: 18px;
+}
+
+/* school details  */
+
+.title-card-school {
+  font-size: 32px;
+}
+
+.detail-flex {
+  align-items: center;
+  justify-content: center;
+}
+
+.image-logo-details {
+  width: 32px;
+  height: 32px;
+}
+
+.text-in-card {
+  font-size: 17px;
+}
+
+.school-details-text {
+  font-size: 15px;
+}
+
+.more-details {
+  font-size: 14px;
+}
+
+.map-google {
+  border: none;
+}
+
+/* footer */
+
+.empty-block {
+  height: 100px;
+  background-color: #f4f5f6;
+}
+
+/* top */
+
+.top-footer {
+  background-color: #000;
+  padding: 20px 5px;
+}
+
+.footer-top-wrapper > ul > li {
+  margin-right: 18px;
+}
+
+.footer-link-ul > li > a {
+  font-size: 15px;
+}
+
+.footer-logo > a > img {
+  max-width: 100px;
+}
+
+/* middle */
+
+.footer-headers {
+  font-size: 20px;
+}
+
+.footer-content {
+  font-size: 13px;
+}
+
+.form-control::placeholder {
+  color: white;
+  opacity: 1;
+}
+
+/* bottom */
+
+.bottom-footer {
+  background-color: #1f1f1f;
+}
+
+.social-linkf-wrapper > ul > li {
+  margin-right: 18px;
+}
+
+.amsterdam {
+  font-size: 13px;
+}
+
+.social-linkf-ul > li > a {
+  font-size: 14px;
+}
+
+/* hover selecttor */
+
+.social-link > li > a:hover {
+  text-decoration: none;
+  text-shadow: 1px 1px 2px #040444;
+}
+
+.footer-link-ul > li > a:hover {
+  text-decoration: none;
+  text-shadow: 1px 1px 2px #040444;
+}
+
+.social-linkf-ul > li > a:hover {
+  text-decoration: none;
+  text-shadow: 1px 1px 2px #040444;
+}
+
+/* mediaqueries */
+
+@media only screen and (min-width: 768px) {
+  .main-sectionak {
+    height: 560px;
+  }
+
+  .click-to-view {
+    font-size: 1.5rem;
+  }
+
+  .icon-class > li {
+    margin: 0 14px;
+    font-weight: bolder;
+  }
+
+  .icon-class > li > a {
+    font-size: 24px;
+  }
+
+  .map-google {
+    border: none;
+    width: 700px;
+    height: 600px;
+  }
+
+  .footer-top-wrapper > ul > li {
+    margin-right: 14px;
+  }
+
+  .footer-link-ul > li > a {
+    font-size: 13px;
+  }
+
+  .footer-logo > a > img {
+    max-width: 100px;
+  }
+
+  .amsterdam {
+    font-size: 13px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .main-text {
+    font-size: 40px;
+  }
+
+  .icon-class > li {
+    padding: 12px 9px 8px;
+    margin: 0 20px;
+  }
+
+  .icon-class > li > a {
+    font-size: 14px;
+  }
+
+  .img-inside {
+    height: 245px;
+  }
+
+  .footer-link-ul > li > a {
+    font-size: 18px;
+  }
+
+  .top-footer {
+    padding: 0 2%;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .main-sectionak {
+    height: 780px;
+  }
+
+  .search-box {
+    max-width: 675px;
+  }
+
+  .padding-tricolor {
+    padding: 65px 120px;
+  }
+
+  .new-class-try {
+    padding-top: 14%;
+  }
+
+  .icon-class > li > a {
+    font-size: 22px;
+  }
+
+  .mid-footer {
+    padding: 0 7%;
+  }
+}
+
+@media only screen and (min-width: 1920px) {
+  body {
+    border-left: 1px solid rgba(189, 183, 183, 0.2);
+    border-right: 1px solid rgba(189, 183, 183, 0.2);
+  }
+
+  .new-class-try {
+    padding-top: 10%;
+  }
+}
