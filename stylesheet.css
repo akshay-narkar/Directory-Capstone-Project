@@ -320,7 +320,12 @@ ul {
 
 @media only screen and (max-width: 363px) {
   .search-box {
-    height: 190px;
+    height: 202px;
+  }
+
+  .main-text {
+    font-size: 30px;
+    line-height: 1.3em;
   }
 }
 
