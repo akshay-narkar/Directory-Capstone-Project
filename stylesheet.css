@@ -390,6 +390,11 @@ ul {
   .top-footer {
     padding: 0 2%;
   }
+
+  .main-search {
+    margin: 0 auto;
+    width: 35%;
+  }
 }
 
 @media only screen and (min-width: 1280px) {
