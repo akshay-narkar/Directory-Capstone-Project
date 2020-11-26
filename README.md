@@ -46,7 +46,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/akshay-narkar/Directory-Capstone-Project/project-ui/index.html)
+[Live Demo Link](https://raw.githack.com/akshay-narkar/Directory-Capstone-Project/main/index.html)
 
 ## Automated Test
 
