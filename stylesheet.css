@@ -318,6 +318,11 @@ ul {
 
 /* mediaqueries */
 
+@media only screen and (max-width: 363px) {
+  .search-box {
+    height: 190px;
+  }
+
 @media only screen and (min-width: 768px) {
   .main-sectionak {
     height: 560px;
